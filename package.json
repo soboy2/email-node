@@ -1,0 +1,28 @@
+{
+  "name": "email-node",
+  "version": "0.0.1",
+  "dependencies": {
+    "nodemailer": "~0.7.1",
+    "express": "~4.5.1"
+  },
+  "description": "\"simple node-express app to send emails using nodemailer\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soboy2/email-node.git"
+  },
+  "keywords": [
+    "email",
+    "node",
+    "express"
+  ],
+  "author": "Sho <sho.asod@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soboy2/email-node/issues"
+  },
+  "homepage": "https://github.com/soboy2/email-node"
+}
