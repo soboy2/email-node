@@ -3,7 +3,17 @@
   "version": "0.0.1",
   "dependencies": {
     "nodemailer": "~0.7.1",
-    "express": "~4.5.1"
+    "express": "^4.12.3"
+  },
+  "devDependencies":{
+    "grunt": "^0.4.5",
+    "grunt-concurrent": "^1.0.0",
+    "grunt-contrib-cssmin": "^0.12.2",
+    "grunt-contrib-jshint": "^0.11.1",
+    "grunt-contrib-less": "^1.0.1",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-nodemon": "^0.4.0"
   },
   "description": "\"simple node-express app to send emails using nodemailer\"",
   "main": "server.js",
